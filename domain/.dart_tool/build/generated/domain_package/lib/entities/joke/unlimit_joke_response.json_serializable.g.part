@@ -1,0 +1,14 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+UnLimitJokeResponse _$UnLimitJokeResponseFromJson(Map<String, dynamic> json) =>
+    UnLimitJokeResponse(
+      joke: json['joke'] as String?,
+    );
+
+Map<String, dynamic> _$UnLimitJokeResponseToJson(
+        UnLimitJokeResponse instance) =>
+    <String, dynamic>{
+      'joke': instance.joke,
+    };
