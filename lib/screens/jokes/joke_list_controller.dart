@@ -28,11 +28,11 @@ class JokeListController extends UnLimitController {
   void onInit() {
     super.onInit();
 
-    // /// fetch the jokes from local storage
-    // _fetchAllJokes();
-    //
-    // /// start observing joke database changes
-    // _observingNewJokes();
+    /// fetch the jokes from local storage
+    _fetchAllJokes();
+
+    /// start observing joke database changes
+    _observingNewJokes();
   }
 
   /// fetch the jokes from local storage

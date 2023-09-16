@@ -30,8 +30,7 @@ class AppStorageImpl implements AppStorage {
   Future<List<String>> getAllJokes() async {
     final hiveBox = await Hive.openBox(_unLimitTableName);
     final jokeList =  hiveBox.values.toList().map((e) => e as String).toList();
-    final returnValue = jokeList.reversed.toList();
-    return Future.value(returnValue);
+    return Future.value(jokeList);
   }
 
   @override
