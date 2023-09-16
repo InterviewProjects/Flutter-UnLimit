@@ -1,16 +1,8 @@
-# flutter_base
+# flutter_unlimit
 
-A new Flutter project.
+UnLimit App which fecth the jokes from server per minute.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img width="474" alt="Screenshot 2023-09-16 at 6 40 15 PM" src="https://github.com/InterviewProjects/Flutter-UnLimit/assets/9830376/67ea55a2-335e-4762-8754-366936a22f57">
+<img width="493" alt="Screenshot 2023-09-16 at 1 25 53 PM" src="https://github.com/InterviewProjects/Flutter-UnLimit/assets/9830376/e8b29100-e852-42a7-af54-a7e492f23589">
